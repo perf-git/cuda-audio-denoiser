@@ -1,0 +1,8 @@
+CUDA 5-tap audio denoiser execution report
+GPU: NVIDIA GeForce GTX 1650
+CUDA path: NVIDIA CUDA Driver API; embedded PTX kernel fir5; 256 threads/block
+Samples: 32768 at 48000 Hz; launches timed: 40
+GPU launch batch: 0.003600 s (364,048,439 sample outputs/s including launch overhead)
+CPU reference: 0.013697 s (2,392,419 samples/s)
+Input noise RMS: 0.185606; filtered RMS error: 0.037452; SNR improvement: 13.90 dB
+GPU vs CPU max absolute difference: 1.1920929e-07
